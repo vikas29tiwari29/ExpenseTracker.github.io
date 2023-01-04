@@ -1,0 +1,10 @@
+.chart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* width: 100%; */
+    gap: 70px;
+    color:black;
+}

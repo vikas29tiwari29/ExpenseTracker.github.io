@@ -1,0 +1,114 @@
+.addBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 27, 28);
+    width: 55vw;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+.btn{
+    padding: 20px 50px;
+    background-color: #70727D;
+    margin: 30px auto;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: white;
+    color: #70727D;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+    margin: 0 auto;
+    background-color: rgb(23, 27, 28);
+    color: white;
+    /* height: 10vh; */
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+}
+.filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.margin{
+    margin: 0 20px;
+}
+select{
+    width: 100px;
+    height: 40px;
+    padding: 0 20px;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+.entries{
+    display: flex;
+    justify-content: space-between;
+    background-color: #70727D;
+    /* box-shadow: 0 0 5px 1px white; */
+    margin-top: 15px;
+    padding: 20px;
+    color:  white;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.entries:hover{
+    background-color: white;
+    color:#70727D ;
+    position: relative;
+    bottom: 8px;
+    /* box-shadow: 0 0 5px 1px black; */
+}
+.date:hover{
+    background-color: white;
+    color: black;
+}
+.itemData{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+.date{
+    border: 1px solid white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    /* background-color: black; */
+    width: 100px;
+    border-radius: 5px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+.amt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}

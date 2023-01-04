@@ -1,0 +1,40 @@
+.chart-bar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-bar__inner {
+    height: 100%;
+    width: 2rem;
+    border: 1px solid #313131;
+    border-radius: 12px;
+    background-color: #577e9e;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .chart-bar__fill {
+    /* background-color: greenyellow; */
+    /* background-color: rgb(50, 205, 58); */
+    background-color: rgb(142, 173, 209);
+    width: 100%;
+    transition: all 2s ease-out;
+  }
+  
+  .chart-bar__label {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 500px) {
+    .chart-bar__label {
+      margin-top: 0.5rem;
+      transform: rotate(90deg);
+      transform-origin: 50% 50%;
+    }
+  }
